@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+#header-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.295), rgba(0, 0, 0, 0.753)), url("../images/Maldives.webp");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 2rem 10rem;
+
+}
+
+#logo {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    font-weight: bolder;
+
+}
+
+#navlinks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navitems:hover {
+    color: orangered;
+
+}
+
+#ul-list {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.navitems {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn {
+    background-color: transparent;
+    padding: 4px 20px;
+    border-radius: 2rem;
+    border: 2px solid white;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.headertext {
+    color: white;
+    font-size: 30px;
+    margin-top: 10rem;
+}
+
+#toarrive {
+    color: orangered;
+}
+
+.about {
+    margin: 5rem 12rem;
+    display: flex;
+    gap: 5rem;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    gap: 2rem;
+}
+
+.abouttext {
+    width: 50%;
+    font-size: 20px;
+}
+
+.images img {
+    width: 80%;
+    height: 60vh;
+}
+
+.abouttext h3 {
+    color: orangered;
+}
+
+.abouttext h1 {
+    font-size: 30px;
+}
+
+.btn2 {
+    background-color: orangered;
+    padding: 15px 30px;
+    border-radius: 5rem;
+    border: none;
+    color: white;
+}
+
+.servebtn{
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.btn2 a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.btn2:hover {
+    background-color: aqua;
+}
+
+.serve{
+    margin: 7rem 8rem;
+}
+
+.serveimages{
+  display: flex;
+  gap: 2rem; 
+}
+
+.serveimages img{
+    width: 80%;
+    height: 50vh;
+}
+
+.serve p{
+    line-height: 2;
+}
+
+.servetext{
+    width: 80%;
+    font-size: 18px;  
+}
+
+.servetext h3{
+    color: orangered;
+}
+
+.serveimages a{
+    text-decoration: none;
+    color: orangered;
+}
